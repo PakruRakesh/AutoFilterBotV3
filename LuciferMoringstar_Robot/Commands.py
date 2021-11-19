@@ -109,20 +109,21 @@ async def start(bot, message):
             )
         )
     else:
-        await message.reply_text(
-            START_MSG,
+        await message.reply_photo(
+        photo="https://telegra.ph/file/15231570e3dcb2abc48cd.jpg"
+            caption = START_MSG,
             parse_mode="Markdown",
-            disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("Search Here", switch_inline_query_current_chat='')
+                InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat='')
                 ],[
-                InlineKeyboardButton("Help", callback_data="help"),
-                InlineKeyboardButton("About", callback_data="about")
+                InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
+                InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
                 ]]
             )
         )
         StopPropagation
+            
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
