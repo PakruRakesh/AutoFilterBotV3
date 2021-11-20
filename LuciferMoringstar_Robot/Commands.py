@@ -117,8 +117,7 @@ async def start(bot, message):
                 username = None if not message.from_user.username else '@' + message.from_user.username,
                 mention = message.from_user.mention,
                 id = message.from_user.id
-            
-            reply_markup=InlineKeyboardMarkup(
+                reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat='')
                 ],[
@@ -128,6 +127,7 @@ async def start(bot, message):
             )
         )
         StopPropagation
+            
             
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
