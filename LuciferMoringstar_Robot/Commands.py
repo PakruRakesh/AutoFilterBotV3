@@ -113,7 +113,7 @@ async def start(bot, message):
         photo="https://telegra.ph/file/15231570e3dcb2abc48cd.jpg",
         caption=START_MSG.format(
                 message.from_user.mention),
-        parse_mode="markdown",  
+        parse_mode="html",  
         reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat='')
