@@ -116,8 +116,10 @@ async def start(bot, message):
                 last = message.from_user.last_name,
                 username = None if not message.from_user.username else '@' + message.from_user.username,
                 mention = message.from_user.mention,
-                id = message.from_user.id
-                reply_markup=InlineKeyboardMarkup(
+                id = message.from_user.ɪᴅ
+            ]
+             
+        reply_markup=InlineKeyboardMarkup(
                 [[
                 InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat='')
                 ],[
