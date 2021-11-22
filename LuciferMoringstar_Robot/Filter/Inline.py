@@ -11,7 +11,7 @@ cache_time = 0 if AUTH_USERS or AUTH_CHANNEL else CACHE_TIME
 
 @Client.on_inline_query(filters.user(AUTH_USERS) if AUTH_USERS else None)
 async def answer(bot, query):
-    """Show search results for given inline query"""
+    """**Show search results for given inline query**"""
 
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
@@ -97,7 +97,7 @@ def get_reply_markup(query):
 
 
 def get_size(size):
-    """Get size in readable format"""
+    """**Get size in readable format**"""
 
     units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
     size = float(size)
