@@ -115,7 +115,7 @@ async def group(client, message):
     if 2 < len(message.text) < 50:    
         btn = []
         search = message.text
-        mo_tech_yt = f"**📔 ᴛɪᴛʟᴇ:** {search}\n\n**🧿ᴄʜᴀɴɴᴇʟ:[ᴄɪɴᴇᴍᴀ ᴛɪᴄᴋᴇᴛ](https://t.me/cenimaTicket)**\n🧿ᴏᴡᴇʀᴇᴅ ʙʏ:[ᴄᴛᴍ ꜰɪʟᴛᴇʀ ʙᴏᴛ](https://t.me/CTMFilterBot)"
+        mo_tech_yt = f"**📔 ᴛɪᴛʟᴇ: {search}**\n**🎃 ᴄʜᴀɴɴᴇʟ:[ᴄɪɴᴇᴍᴀ.ᴛɪᴄᴋᴇᴛ](https://t.me/cenimaTicket)**\n**🎩 ᴘᴏᴡᴇʀᴇᴅ ʙʏ: [ᴄᴛᴍ ꜰɪʟᴛᴇʀ ʙᴏᴛ](https://t.me/CTMFilterBot)**\n\n**♻️ ചോദിച്ച മൂവി ഫയൽ കാണുന്നില്ല എങ്കിൽ അടുത്ത പേജിൽ നോക്കുക**"
         nyva=BOT.get("username")
         if not nyva:
             botusername=await client.get_me()
