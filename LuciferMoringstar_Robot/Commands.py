@@ -119,7 +119,7 @@ async def start(bot, message):
                 InlineKeyboardButton("🎖️ 𝐆𝐫𝐨𝐮𝐩 🎖️", url="https://t.me/joinchat/i8_zUyJr0Js1MWVl")
                 ],[
                 InlineKeyboardButton("⚜️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜️", url="https://t.me/cenimaTicket"),
-                InlineKeyboardButton("🔱 𝐀𝐛𝐨𝐮𝐭 🔱", callback_data="about")
+                InlineKeyboardButton("🤴 𝐀𝐛𝐨𝐮𝐭 🤴", callback_data="about")
                 ]]
             )
         )
