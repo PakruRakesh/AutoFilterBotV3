@@ -11,31 +11,26 @@ from .Channel import (
 )
 
 HELP = """
-Basic Commads
-
-/start :- check am Alive
-
-Bot Owner Only
-/broadcast Replay Any Message or Media
-/stats user Status
-/ban_user  click ban_user more info
-/unban_user click unban_user more info
-/banned_users Banned User Details
-/total How Many Files Added In Database
-/logger  Get Logs
-/delete Delete File From Database
-
+<b>നീ ഏതാ..... ഒന്ന് പോടെയ് അവൻ help ചോയ്ച്ച് വന്നിരിക്കുന്നു😤...I'm Different Bot U Know</b>
 """
 
-ABOUT = """
-➥ Name :  Auto Filter V3
+
+
+ABOUT_TEXT = """<b>○ ᴍʏ ɴᴀᴍᴇ : ᴄᴛᴍ ꜰɪʟᴛᴇʀ ʙᴏᴛ</b>
     
-➥ Creator : [Naughty PROFESSOR](
-https://youtube.com/c/NaughtyPROFESSOR)
+<b>○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ</b>
 
-➥ Language : Python3
+<b>○ ғʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ</b>
 
-➥ Library : Pyrogram Asyncio 1.13.0
+<b>○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ</b>
 
-➥ Tutorial : [Click Me](https://youtu.be/5hnYOKBzyi8)
+<b>○ ᴠᴇʀsɪᴏɴ : 1.0.0</b>
+
+<b>○ ᴄʀᴇᴀᴛᴏʀ</b> : <b><a href="https://t.me/Pakru_Rakesh">ᴘᴀᴋʀᴜ ʀᴀᴋᴇsʜ</a></b>
+
+<b>○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐</b>
+
+<b>ᴜᴘᴅᴀᴛᴇ ᴏɴ 26-11-21 ɪɴᴅɪᴀɴ ᴛɪᴍᴇ 2:37 ᴘᴍ</b>
+"""
+
 """
