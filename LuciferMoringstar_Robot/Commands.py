@@ -116,9 +116,9 @@ async def start(bot, message):
         parse_mode="html",  
         reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("sᴇᴀʀᴄʜ ʜᴇʀᴇ", switch_inline_query_current_chat='')
+                InlineKeyboardButton("🎖️ 𝐆𝐫𝐨𝐮𝐩 🎖️", url="https://t.me/joinchat/i8_zUyJr0Js1MWVl")
                 ],[
-                InlineKeyboardButton("ʜᴇʟᴘ", callback_data="help"),
+                InlineKeyboardButton("⚜️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜️", url="https://t.me/cenimaTicket"),
                 InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
                 ]]
             )
