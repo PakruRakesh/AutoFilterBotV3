@@ -26,7 +26,7 @@ ABOUT = """<b>○ ᴍʏ ɴᴀᴍᴇ : ᴄᴛᴍ ꜰɪʟᴛᴇʀ ʙᴏᴛ</b>
 
 <b>○ ᴠᴇʀsɪᴏɴ : 1.0.0</b>
 
-<b>○ ᴄʀᴇᴀᴛᴏʀ</b> : <b><a href="https://t.me/Pakru_Rakesh">ᴘᴀᴋʀᴜ ʀᴀᴋᴇsʜ</a></b>
+<b>○ ᴄʀᴇᴀᴛᴏʀ</b> : <b><a href="https://t.me/cenimaTicket">ᴘᴀᴋʀᴜ ʀᴀᴋᴇsʜ</a></b>
 
 <b>○ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : 🔐</b>
 
