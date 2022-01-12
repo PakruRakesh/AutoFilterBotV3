@@ -116,10 +116,10 @@ async def start(bot, message):
         parse_mode="html",  
         reply_markup=InlineKeyboardMarkup(
                 [[
-                InlineKeyboardButton("🎖️ 𝐆𝐫𝐨𝐮𝐩 🎖️", url="https://t.me/joinchat/i8_zUyJr0Js1MWVl")
+                InlineKeyboardButton("⚠️ 𝙂𝙍𝙊𝙐𝙋", url="https://t.me/joinchat/i8_zUyJr0Js1MWVl")
                 ],[
-                InlineKeyboardButton("⚜️ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ⚜️", url="https://t.me/cenimaTicket"),
-                InlineKeyboardButton("🤴 𝐀𝐛𝐨𝐮𝐭 🤴", callback_data="about")
+                InlineKeyboardButton("⚜️ 𝘾𝙃𝘼𝙉𝙉𝙀𝙇 ⚜️", url="https://t.me/CTMovies123"),
+                InlineKeyboardButton("𝘼𝙗𝙤𝙪𝙩 🕵‍♂", callback_data="about")
                 ]]
             )
         )
